@@ -23,7 +23,6 @@ const User = () => {
           <tr key={item.id}>
             <td>{item.title}</td>
           </tr>
-          <td>{item.completed}</td>
         </table>
       ))}
     </div>
