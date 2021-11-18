@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./styles.css";
-//import CounterComponent from "./counter";
+import CounterComponent from "./counter";
 import User from "./User";
 export default function App() {
   return (
     <div>
-      {/* <CounterComponent /> */}
-      <User />
+      {/* need to run CounterComponent you need uncomment below line */}
+      <CounterComponent />
+      {/* <User /> */}
     </div>
   );
 }

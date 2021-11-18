@@ -19,10 +19,11 @@ const User = () => {
     <div>
       {user.map((item) => (
         // <li key={item.id}>{item.title}</li>
+
         <table>
-          <tr key={item.id}>
-            <td>{item.title}</td>
-          </tr>
+          <tr key={item.id}></tr>
+
+          <p>{item.title}</p>
         </table>
       ))}
     </div>
